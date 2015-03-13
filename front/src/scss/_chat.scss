@@ -1,0 +1,33 @@
+.chat {
+  .messages-list {
+    padding: 25px;
+    margin: 0;
+
+    .message {
+      width: 100%;
+      padding: 10px;
+      margin: 2px 0;
+      border-radius: 5px;
+      list-style: none;
+
+      &:nth-child(even) {
+        background-color: #fff;
+      }
+
+      &:nth-child(odd) {
+        background-color: #d7fbea;
+      }
+    }
+  }
+
+  .writer {
+    width: 100%;
+    position: absolute;
+    padding: 25px;
+    bottom: 0;
+
+    textarea {
+      width: 100%;
+    }
+  }
+}
